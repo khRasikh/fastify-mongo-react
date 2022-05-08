@@ -1,0 +1,23 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.29.0",
+    "mongoose": "^6.3.2"
+  },
+  "devDependencies": {
+    "fastify-swagger": "^5.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
