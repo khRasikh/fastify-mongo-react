@@ -121,7 +121,7 @@ const deleteRecordController = (req, resp) => {
     if (err) {
       console.log(err);
     } else {
-      resp.send(`A user called ${unique_id} reomved successfully!`);
+      resp.send(`A record called ${unique_id} reomved successfully!`);
     }
   });
 };
